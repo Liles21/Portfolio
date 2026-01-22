@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion'
-import { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import './Header.css'
 import ThemeToggle from './ThemeToggle'
