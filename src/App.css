@@ -5,8 +5,9 @@ body {
     'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  background: var(--bg-gradient);
   background-attachment: fixed;
+  color: var(--text);
   overflow-x: hidden;
 }
 

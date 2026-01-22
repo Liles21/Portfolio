@@ -2,6 +2,7 @@ import { motion } from 'framer-motion'
 import { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import './Header.css'
+import ThemeToggle from './ThemeToggle'
 
 interface HeaderProps {
   isMenuOpen: boolean
@@ -51,6 +52,10 @@ const Header = ({ isMenuOpen, setIsMenuOpen }: HeaderProps) => {
             </motion.a>
           ))}
         </nav>
+
+        <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'center' }}>
+          <ThemeToggle />
+        </div>
 
         <motion.button
           className="menu-toggle"

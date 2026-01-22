@@ -2,10 +2,10 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background: rgba(15, 12, 41, 0.95);
+  background: var(--header-bg);
   backdrop-filter: blur(10px);
   z-index: 1000;
-  border-bottom: 1px solid rgba(100, 200, 255, 0.2);
+  border-bottom: 1px solid rgba(100, 200, 255, 0.12);
   padding: 1rem 0;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .nav a {
-  color: #e0e0e0;
+  color: var(--text);
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease;
@@ -45,7 +45,7 @@
 }
 
 .nav a:hover {
-  color: #64c8ff;
+  color: var(--accent);
 }
 
 .nav a::after {
@@ -67,7 +67,7 @@
   display: none;
   background: none;
   border: none;
-  color: #64c8ff;
+  color: var(--accent);
   font-size: 1.5rem;
   cursor: pointer;
   padding: 0;
