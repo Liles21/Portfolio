@@ -8,7 +8,7 @@ const Projects = () => {
       title: 'E-Commerce Platform',
       description: 'Full-stack e-commerce solution with payment integration and inventory management',
       tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-      color: '#64c8ff',
+      color: '#87c6eb',
     },
     {
       id: 2,
